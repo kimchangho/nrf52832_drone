@@ -37,7 +37,7 @@ int main(void)
     services_init();
     advertising_init();
     conn_params_init();
-    printf("\r\nUART Start!\r\n");
+    printf("\r\nUART Start!!\r\n");
     err_code = ble_advertising_start(BLE_ADV_MODE_FAST);
 		button_init();
 		//motor_init();
